@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Settings" ADD COLUMN     "workEndMinute" INTEGER NOT NULL DEFAULT 1200,
+ADD COLUMN     "workStartMinute" INTEGER NOT NULL DEFAULT 420;
